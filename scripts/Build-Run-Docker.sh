@@ -4,7 +4,7 @@ IMAGE=ros2-humble
 
 docker build -t $IMAGE:base .rosenv
 
-docker run -it \
+docker run --rm -it \
     --net=host \
     -e DISPLAY=$DISPLAY \
     --env="QT_X11_NO_MITSHM=1" \
