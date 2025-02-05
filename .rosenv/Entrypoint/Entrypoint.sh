@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Good Day!"
+read -p 'Good Day!'
 
 sudo ln -s /ros2_ws/src $HOME/ros2_ws
 
