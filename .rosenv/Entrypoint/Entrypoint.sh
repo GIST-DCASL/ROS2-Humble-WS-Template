@@ -19,6 +19,4 @@ if [ ! -f $HOME/.git-credentials ]; then
     git config --global credential.helper store
 fi
 
-./ROS_Entrypoint.sh
-
 exec "$@"
